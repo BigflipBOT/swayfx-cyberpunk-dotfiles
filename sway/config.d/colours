@@ -1,0 +1,32 @@
+### File with color aliases
+### pretty names and usable names
+#
+# main accents
+#
+#set $bittersweet #FB6B62
+set $bittersweet #F95E5A
+set $unfo $bittersweet
+
+set $aqua #28FFFF
+set $focu $aqua
+
+set $icterine #FFFF4D
+set $acc1 $icterine
+
+set $emerald #28E096
+set $acc2 $emerald
+
+set $lavender #D4ADCF
+set $acc3 $lavender
+
+#
+# background
+#
+set $black #0D0D15
+set $bgr1 $black
+
+set $licorice #271219
+#set $bgr2 #271219
+
+set $caput_mortuum #511E1E
+set $bgr2 $caput_mortuum

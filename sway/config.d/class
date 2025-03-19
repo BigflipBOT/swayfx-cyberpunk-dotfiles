@@ -1,0 +1,9 @@
+include ~/.config/sway/config.d/*
+
+#class                  border    backgr    text      indicator child_border
+client.focused          $unfo	  $bgr1	    $focu     $focu     $unfo
+client.focused_inactive $unfo     $bgr2     $unfo     $unfo     $unfo
+client.unfocused        $unfo     $bgr2     $unfo     $unfo     $unfo
+client.urgent           $unfo     $bgr2     $acc1     $unfo     $unfo
+#i3_comp# client.placeholder      #000000   #0c0c0c   #ffffff   #000000   #333845
+client.background       #ffffff

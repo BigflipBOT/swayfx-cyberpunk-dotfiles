@@ -1,0 +1,7 @@
+gaps inner 5
+gaps outer 1
+
+#smart_borders no_gaps
+smart_gaps on
+
+
