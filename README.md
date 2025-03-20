@@ -7,7 +7,7 @@ This repo focuses on visual aspects. In the main scope, there is sway and bar co
 ## Dependencies to install
 ##### hard dependencies:
 ```
-swayfx polkit swaybg xorg-wayland sway-launcher-desktop kitty slurp wl-clipboard
+swayfx polkit swaybg xorg-wayland sway-launcher-desktop kitty grim slurp wl-clipboard
 ```
 ##### soft dependencies:
 ```
