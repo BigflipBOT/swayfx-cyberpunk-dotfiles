@@ -26,5 +26,20 @@ Contents of this repo are basicly contents of what could be your .config dir con
 5. Run command `stow .`
 6. After this, reload (or enter) sway and you should be good to go
 
+## Keybinds
+List of some keybinds that you may find usefull when starting using this config.
+Mod is a supper key.
+| keys            			    | behavior							|
+| -             		    	| -         			    		|
+| mod + d         		    	| app launcher						|
+| mod + return			    	| launch terminal					|
+| mod + [hjkl]					| change focus [←↑↓→]				|
+| mod + Shift + [hjkl]	        | move focused tab [←↑↓→]			|
+| mod + [0-9]					| focus workspace [0-9]				|
+| mod + shift + [0-9]			| move to  workspace [0-9]			|
+| mod + shift + c				| reload sway						|
+| mod + shift + s				| screenshot and copy to clipboard  | 
+If you want to learn more keybinds, visit `sway/config` file.
+
 #### Important note:
 This config was prepared for swayfx in mind, however all swayfx exclusive things are located in `sway/config.d/swayfx` so you can delete it to be compatible with regular sway. Also keeping in mind that sway is a drop in replacement for i3, there is a high chance that, with minimal effort it could be made compatbile with i3, however this was not tested.
