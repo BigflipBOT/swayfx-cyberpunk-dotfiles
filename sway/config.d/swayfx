@@ -1,0 +1,23 @@
+for_window [app_id="kitty"] {
+  blur enable
+  opacity 0.9
+}
+#for_window [con_mark=".*"]  {
+#  opacity 0.95
+#  blur enable
+#  # blur_xray disable;
+#  blur 
+#}
+# layer_effects "kitty" blur enable;
+
+# for_window [class="Tofi"] opacity 
+for_window [app_id="wofi"] {
+  blur enable
+  opacity 0.7
+  blur_passes 1
+}
+
+# blur enable
+# blur_xray disable
+# blur_passes 4
+# blur_radius 4
