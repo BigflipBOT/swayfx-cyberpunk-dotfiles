@@ -1,1 +1,3 @@
 #output * bg ~/.config/wallpaper/alone-cyberpunk-morning-4k-xi-2560x1440.jpg fill
+#exec swaybg -m fill -i ~/.config/wallpaper/alone-cyberpunk-morning-4k-xi-2560x1440-4275457229.jpg  
+output * bg ~/.config/wallpaper/alone-cyberpunk-morning-4k-xi-2560x1440-4275457229.jpg fill
