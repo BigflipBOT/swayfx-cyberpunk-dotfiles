@@ -23,7 +23,8 @@ set $menu wofi -I --show drun --normal-window -s "$HOME/.config/wofi/style.css" 
 #   border none
 #   move absolute position centered
 # }
-for_window [app_id="wofi"] floating enable, move absolute position 530 300, title_format "%app_id", border none
+# for_window [app_id="wofi"] floating enable, move absolute position 530 300, title_format "%app_id", border none
+for_window [app_id="wofi"] floating enable, title_format "%app_id", border none
 
 ### Output configuration
 
