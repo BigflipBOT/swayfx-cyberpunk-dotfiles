@@ -17,7 +17,7 @@ fastfetch vesktop
 [firefox theme](https://addons.mozilla.org/en-US/firefox/addon/cyberpunk-2077-ui) (not mine)
 
 ## Installation
-Contents of this repo are basicly contents of what could be your .config dir contetns. It was managed by stow (gnu symlink farm manager), so you can use it to install and manage it, or just pick and copy some files you need.
+Contents of this repo are meant to be inside your .config dir contetns. All this is managed by stow (gnu symlink farm manager), so you can use it to install and manage it, or just pick and copy some files you need.
 
 1. Make sure you installed dependencies
 2. Install [stow](https://www.gnu.org/software/stow/)
@@ -39,6 +39,8 @@ Mod is a supper key.
 | mod + shift + [0-9]			| move to  workspace [0-9]			|
 | mod + shift + c				| reload sway						|
 | mod + shift + s				| screenshot and copy to clipboard  | 
+
+
 If you want to learn more keybinds, visit `sway/config` file.
 
 #### Important note:
