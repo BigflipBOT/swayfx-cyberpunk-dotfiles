@@ -1,0 +1,55 @@
+@import url('https://l-ratio.github.io/OperaGXTheme/release/main.css');
+@import url('https://fonts.googleapis.com/css2?family=Rajdhani');
+
+:root {
+  --background: url('https://i.imgur.com/9wxpbVw.png');
+  --background-behind-appmount: 255,255,255,1;
+  --background-accent-color-1: 7,12,18,1;
+  --accent-color-1: 249,94,90;
+  --accent-color-2: 249,94,90;
+  --border-brightness: 1;
+  --dark-background-color: 0,0,0;
+  --darker-background-color: 13,13,21;
+  --wintitlebar-transparency: 0.5;
+  --header-transparency: 0.5;
+  --serverlist-transparency: 0.5;
+  --channels-transparency: 0.5;
+  --chat-transparency: 0.5;
+  --memberlist-transparency: 0.5;
+  --wintitlebar-background-blur: 0px;
+  --header-background-blur: 0px;
+  --serverlist-background-blur: 0px;
+  --channels-background-blur: 0px;
+  --chat-background-blur: 0px;
+  --memberlist-background-blur: 0px;
+  --customFont: Rajdhani;
+  --codeBlocksCustomFont: Chakra Petch;
+  --fullwhite-font: 40,255,255;
+  --normal-font: 249,94,90;
+  --normal-hover-font: 40,255,255;
+  --muted-font: 96,45,62;
+  --link-text: 255,255,77;
+  --gx-red: 181,32,63 ;
+  --gx-red-2: 181,32,63 ;
+  --gx-yellow: 234, 234, 34  ;
+  --gx-yellow-2: 255, 255, 68 ;
+  --gx-green: 0, 212, 81 ;
+  --gx-green-2: 0, 255, 129 ;
+  --font-in-accent: 0, 0, 0  ;
+  --category-name-transform: unset;
+  --chatbox-transparency: 1;
+  --chatbox-focused-transparency: 1;
+  --other-highlighted-transparency: 1;
+  --other-transparency: 1;
+  --wintitlebar-transparency-color: var(--dark-background-color) ;
+  --wintb-focused-alpha: 1;
+  --wintb-focused-color: var(--darker-background-color);
+  --header-transparency-color: var(--dark-background-color);
+  --serverlist-transparency-color: var(--dark-background-color);
+  --channels-transparency-color: var(--dark-background-color);
+  --chat-transparency-color: var(--dark-background-color);
+  --memberlist-transparency-color: var(--dark-background-color);
+}
+
+/* Any custom CSS below here */
+
