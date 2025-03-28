@@ -42,17 +42,6 @@ window {
   animation: fadeIn 0.5s ease-in-out both;
 }
 
-/*/* Fade In */*/
-/*@keyframes fadeIn {*/
-/*  0% {*/
-/*     opacity: 0;*/
-/*  }*/
-/**/
-/*  100% {*/
-/*     opacity: 1;*/
-/*  }*/
-/*}*/
-
 /* Outer Box */
 #outer-box {
   margin: 5px;
@@ -75,14 +64,14 @@ window {
   padding: 10px;
   border: none;
   border-radius: 0.1em;
-  color: @text;
+  color: @aqua;
   background-color: @base;
   animation: fadeIn 0.5s ease-in-out both;
 }
 
 #input image {
     border: none;
-    color: @red;
+    color: @aqua;
 }
 
 #input * {
@@ -93,7 +82,7 @@ window {
 #text {
   margin: 5px;
   border: none;
-  color: @text;
+  color: @bittersweet;
   animation: fadeIn 0.5s ease-in-out both;
 }
 
@@ -108,11 +97,12 @@ window {
 
 /* Selected Entry */
 #entry:selected {
-  border: 0.11em solid @lavender;
+  border: 0.11em solid @bittersweet;
+  background-color: @licorice;
 }
 
 #entry:selected #text {
-  color: @mauve;
+  color: @aqua;
 }
 
 #entry:drop(active) {

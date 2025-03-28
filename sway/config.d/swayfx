@@ -13,7 +13,7 @@ for_window [app_id="kitty"] {
 # for_window [class="Tofi"] opacity 
 for_window [app_id="wofi"] {
   blur enable
-  opacity 0.7
+  opacity 0.75
   blur_passes 1
 }
 
