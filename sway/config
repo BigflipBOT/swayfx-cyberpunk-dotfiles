@@ -30,7 +30,9 @@ for_window [app_id="wofi"] floating enable, title_format "%app_id", border none
 
 output eDP-1 resolution 1920x1080 position 0,0
 # upon reload, detects if external display is present end switches to and from it
-bindsym $mod+Shift+r exec swaymsg -t get_outputs | grep -q "\"DP-1\"" && swaymsg output eDP-1 disable || swaymsg output eDP-1 enable
+# bindsym $mod+Shift+r exec swaymsg -t get_outputs | grep -q "\"DP-1\"" && swaymsg output eDP-1 disable || swaymsg output eDP-1 enable
+# to
+bindsym $mod+Shift+r exec swaymsg output eDP-1 disable
 # You can get the names of your outputs by running: swaymsg -t get_outputs
 
 ### Idle configuration
