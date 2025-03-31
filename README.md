@@ -11,7 +11,7 @@ swayfx polkit swaybg xorg-wayland wofi kitty grim slurp wl-clipboard JetBrainsMo
 ```
 ##### soft dependencies:
 ```
-fastfetch vesktop 
+fastfetch vesktop starship
 ```
 ##### you may consider:
 [firefox theme](https://addons.mozilla.org/en-US/firefox/addon/cyberpunk-2077-ui) (not mine)
