@@ -1,55 +1,114 @@
-@import url('https://l-ratio.github.io/OperaGXTheme/release/main.css');
+/**
+ * @name Fallout 4 Terminal - Cyberpunk2077 colors
+ * @author Bates 
+ * @version 3.1.0
+ * @website https://B4T3S.github.io/Fallout4TerminalTheme
+ * @donate https://www.paypal.com/paypalme/floriancegledi
+ * @patreon https://patreon.com/bates
+ * @description A remix of Fallout 4's terminals with Cyberpunk2077 colors.
+*/
+
+@import url('https://B4T3S.github.io/Fallout4TerminalTheme/mainRewrite.css');
+/* ^ This is the main Import ^ DO NOT TOUCH. Without this, the theme won't load!!! */
+
+@import url('https://B4T3S.github.io/Fallout4TerminalTheme/css/crtEffect.css');
+/* ^ This is the CRT effect. ^ If you don't like it, remove or comment out this line! */
+
 @import url('https://fonts.googleapis.com/css2?family=Rajdhani');
 
-:root {
-  --background: url('https://i.imgur.com/9wxpbVw.png');
-  --background-behind-appmount: 255,255,255,1;
-  --background-accent-color-1: 7,12,18,1;
-  --accent-color-1: 249,94,90;
-  --accent-color-2: 249,94,90;
-  --border-brightness: 1;
-  --dark-background-color: 0,0,0;
-  --darker-background-color: 13,13,21;
-  --wintitlebar-transparency: 0.5;
-  --header-transparency: 0.5;
-  --serverlist-transparency: 0.5;
-  --channels-transparency: 0.5;
-  --chat-transparency: 0.5;
-  --memberlist-transparency: 0.5;
-  --wintitlebar-background-blur: 0px;
-  --header-background-blur: 0px;
-  --serverlist-background-blur: 0px;
-  --channels-background-blur: 0px;
-  --chat-background-blur: 0px;
-  --memberlist-background-blur: 0px;
-  --customFont: Rajdhani;
-  --codeBlocksCustomFont: Chakra Petch;
-  --fullwhite-font: 40,255,255;
-  --normal-font: 249,94,90;
-  --normal-hover-font: 40,255,255;
-  --muted-font: 96,45,62;
-  --link-text: 255,255,77;
-  --gx-red: 181,32,63 ;
-  --gx-red-2: 181,32,63 ;
-  --gx-yellow: 234, 234, 34  ;
-  --gx-yellow-2: 255, 255, 68 ;
-  --gx-green: 0, 212, 81 ;
-  --gx-green-2: 0, 255, 129 ;
-  --font-in-accent: 0, 0, 0  ;
-  --category-name-transform: unset;
-  --chatbox-transparency: 1;
-  --chatbox-focused-transparency: 1;
-  --other-highlighted-transparency: 1;
-  --other-transparency: 1;
-  --wintitlebar-transparency-color: var(--dark-background-color) ;
-  --wintb-focused-alpha: 1;
-  --wintb-focused-color: var(--darker-background-color);
-  --header-transparency-color: var(--dark-background-color);
-  --serverlist-transparency-color: var(--dark-background-color);
-  --channels-transparency-color: var(--dark-background-color);
-  --chat-transparency-color: var(--dark-background-color);
-  --memberlist-transparency-color: var(--dark-background-color);
+/*>>> print(hex_to_rgb("#F95E5A"))*/
+/*249, 94, 90;*/
+/*>>> print(hex_to_rgb("#28FFFF"))*/
+/*40, 255, 255;*/
+/*>>> print(hex_to_rgb("#FFFF4D"))*/
+/*255, 255, 77;*/
+/*>>> print(hex_to_rgb("#28E096"))*/
+/*40, 224, 150;*/
+/*>>> print(hex_to_rgb("#D4ADCF"))*/
+/*212, 173, 207;*/
+/*>>> print(hex_to_rgb("#0D0D15"))*/
+/*13, 13, 21;*/
+/*>>> print(hex_to_rgb("#271219"))*/
+/*39, 18, 25;*/
+/*>>> print(hex_to_rgb("#511E1E"))*/
+/*81, 30, 30;*/
+
+
+/* CUSTOMIZE COLORS IN HERE! */
+:root,
+.theme-dark,
+.theme-light {
+  --rgb-highlight: 249, 94, 90; /* The main highlight color */
+  --rgb-background: 13, 13, 21; /* The main background color */
+  --rgb-text: 40, 255, 255; /* The color (almost) all text should use */
+  /*--text: 40, 255, 255;*/
+  /*--theme-text-color 40, 255, 255;*/
+  --rgb-close-button: 212, 18, 39; /* The main "close this" or "deny" color */
+  --rgb-online-color: 57, 255, 20; /* The color used in the "online" user status symbol */
+  --rgb-afk-color: 249, 94, 90; /* The color used in the "idle" user status symbol */
+  --rgb-dnd-color: 255, 255, 51; /* The color used in the "do not disturb" user status symbol */
+  --rgb-streaming-color: 255, 0, 0; /* The color used in the "streaming X" user status symbol */
+
+  --transition-time: .3s; /* How fast animations added by the theme happen. Default is 0.3 seconds */
+  --background-image: unset; /* To add an image, replace unset with url(https://www.YOUR-URL-HERE.com) */
+  --background-position: center; /* Positions the background image */
+  --background-size: cover; /* Scales the background image */
+  --background-blur: 5px; /* Blurs the image which usually helps with readability of text infront of it */
+  --background-brightness: 100%; /* Changes the background images brightness */
+ 
+  --show-original-title: 0; /* Whether you want to show discords original title (0 means no, 1 means yes) */
+  --show-custom-title: 1; /* Whether you want to show a custom title (0 means no, 1 means yes) */
+  --custom-title-text: "Rajdhani"; /* The custom text you want to display */
+  --custom-title-font-size: 16px; /* The size in pixels of the custom title text */
+  --custom-title-font-weight: bold; /* The font "weight" of the custom title text. For reference: https://developer.mozilla.org/en-US/docs/Web/CSS/font-weight */
+  --custom-title-margin-top: 0px; /* The distance from the top of the window to the custom title text */
+  --custom-title-margin-left: 0px; /* The distance from the left side of the window to the custom title text */
 }
+/*.name__2ea32 {*/
+/*  color: var(--rgb-text);*/
+/*}*/
+/*.sidebar-1tnWFu {*/
+/*  color: var(--rgb-text);*/
+/*}*/
+/*.name__2ea32 {*/
+/**/
+/*}*/
+/*[role="complementary"] {*/
+/*  background-color: #2e2e3e;*/
+/*}*/
+.containerDefault_c69b6d {
+  .containerDefault_c69b6d {
+    color: var(--rgb-text);
+  }
 
-/* Any custom CSS below here */
+  .name__2ea32 {
+    color: var(--rgb-text);
+  }
 
+  .modeMuted__2ea32 {
+    .name__2ea32 {
+      color: var(--interactive-muted);
+    }
+  }
+
+  .modeSelected__2ea32,
+  .modeUnreadImportant__2ea32 {
+    .icon__2ea32 {
+      color: var(--text);
+    }
+  }
+
+  .modeSelected__2ea32 {
+    .name__2ea32 {
+      /*color: var(--rgb-text);*/
+    }
+
+    .wrapper__2ea32 {
+      background-color: rgba(var(--rgb-highlight), 20%);
+    }
+  }
+
+  .icon__2ea32 {
+    color: var(--rgb-text)
+  }
+}
