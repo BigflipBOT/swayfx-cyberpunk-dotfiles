@@ -7,7 +7,7 @@ This repo focuses on visual aspects. In the main scope, there is sway and bar co
 ## Dependencies to install
 ##### hard dependencies:
 ```
-swayfx polkit swaybg xorg-wayland wofi kitty grim slurp wl-clipboard JetBrainsMono Nerd Font Mono
+swayfx polkit swaybg xorg-wayland wofi kitty grim slurp satty wl-clipboard jetbrainsmono-nerd
 ```
 ##### soft dependencies:
 ```
