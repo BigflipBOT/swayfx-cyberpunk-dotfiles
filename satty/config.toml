@@ -1,0 +1,13 @@
+[general]
+# Start Satty in fullscreen mode
+fullscreen = false
+# Exit directly after copy/save action
+early-exit = false
+# Select the tool on startup [possible values: pointer, crop, line, arrow, rectangle, text, marker, blur, brush]
+initial-tool = "brush"
+# Configure the command to be called on copy, for example `wl-copy`
+copy-command = "wl-copy"
+# Filename to use for saving action. Omit to disable saving to file. Might contain format specifiers: https://docs.rs/chrono/latest/chrono/format/strftime/index.html
+save-after-copy = false
+default-hide-toolbars = false
+disable-notifications = true

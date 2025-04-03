@@ -221,7 +221,8 @@ bindsym $mod+r mode "resize"
     bindsym XF86AudioNext exec playerctl next
     bindsym XF86AudioPrev exec playerctl previous
     # Special key to take a screenshot with grim
-    bindsym $mod+Shift+s exec grim -g "$(slurp)" - | tee ~/Pictures/$(date +%d-%m-%Y_%H:%M:%S).png | wl-copy
-
+    exec once mkdir -p ~/Pictures
+    exec once mkdir -p ~/Pictures/Screenshots
+    bindsym $mod+Shift+s exec grim -g "$(slurp)" - | wl-copy && wl-paste | eval $(printf "satty -f - -o $HOME/Pictures/Screenshots/$(date +%d-%m-%Y_%H:%M:%S).png\ntee $HOME/Pictures/Screenshots/$(date +%d-%m-%Y_%H:%M:%S).png | wl-copy\nwl-copy" | wofi --dmenu --normal-window)
 
 include /etc/sway/config.d/*
