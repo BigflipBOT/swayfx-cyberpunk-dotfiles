@@ -38,7 +38,7 @@ Mod is a supper key.
 | mod + [0-9]					| focus workspace [0-9]				|
 | mod + shift + [0-9]			| move to  workspace [0-9]			|
 | mod + shift + c				| reload sway						|
-| mod + shift + s				| screenshot and copy to clipboard  | 
+| mod + shift + s				| screenshot + screenshot menu      | 
 
 
 If you want to learn more keybinds, visit `sway/config` file.
