@@ -43,5 +43,8 @@ Mod is a supper key.
 
 If you want to learn more keybinds, visit `sway/config` file.
 
-#### Important note:
+### Important notes:
+##### swayfx and i3
 This config was prepared for swayfx in mind, however all swayfx exclusive things are located in `sway/config.d/swayfx` so you can delete it to be compatible with regular sway. Also keeping in mind that sway is a drop in replacement for i3, there is a high chance that, with minimal effort it could be made compatbile with i3, however this was not tested.
+##### background/wallpaper
+There is no background present in this repo. To set it, create `wallpaper` directory, in your .config, paste your image there and modify `sway/config.d/background` accordingly.
