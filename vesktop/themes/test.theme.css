@@ -1,21 +1,26 @@
 /**
- * @name Fallout 4 Terminal - Cyberpunk2077 colors
+ * @name Cyberpunk2077 terminal
  * @author Bates 
- * @version 3.1.0
+ * @version 3.1.1
  * @website https://B4T3S.github.io/Fallout4TerminalTheme
  * @donate https://www.paypal.com/paypalme/floriancegledi
  * @patreon https://patreon.com/bates
  * @description A remix of Fallout 4's terminals with Cyberpunk2077 colors.
 */
 
-@import url('https://B4T3S.github.io/Fallout4TerminalTheme/mainRewrite.css');
+/* @import url('https://B4T3S.github.io/Fallout4TerminalTheme/mainRewrite.css'); */
+@import url('mainRewrite.css'); 
 /* ^ This is the main Import ^ DO NOT TOUCH. Without this, the theme won't load!!! */
+/*downloaded for static use*/
 
-@import url('https://B4T3S.github.io/Fallout4TerminalTheme/css/crtEffect.css');
+/* @import url('https://B4T3S.github.io/Fallout4TerminalTheme/css/crtEffect.css'); */
+@import url('crtEffect.css');
 /* ^ This is the CRT effect. ^ If you don't like it, remove or comment out this line! */
+/*downloaded for static use*/
 
 @import url('https://fonts.googleapis.com/css2?family=Rajdhani');
 
+/* hex values for easy coppying */
 /*>>> print(hex_to_rgb("#F95E5A"))*/
 /*249, 94, 90;*/
 /*>>> print(hex_to_rgb("#28FFFF"))*/
