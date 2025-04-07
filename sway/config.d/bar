@@ -6,7 +6,7 @@ include ~/.config/sway/config.d/*
 # Read `man 5 sway-bar` for more information about this section.
 bar {
     id 0
-    status_command ~/.config/sway/bar_logic.sh
+    status_command ~/.config/sway/scripts.d/bar_logic.sh
 
     position top
     wrap_scroll no
