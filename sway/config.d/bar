@@ -13,18 +13,20 @@ bar {
     workspace_min_width 50
     strip_workspace_numbers no
     workspace_buttons yes
+    pango_markup enabled
     # status_command while date +'%Y-%m-%d %X'; do sleep 1; done
 
-    colors {
-        statusline $bittersweet
-	background 		$black
-	separator		$bittersweet
 
-	#			border		backgroudn	text
+    colors {
+        statusline  $bittersweet
+        background  $black
+        separator		$aqua
+    
+    #   border		backgroudn	text
         inactive_workspace 	$black		$black		$bittersweet
         urgent_workspace 	$bittersweet	$licorice	$icterine
-	focused_workspace	$bittersweet	$licorice	$aqua
-	active_workspace	$bittersweet	$black		$bittersweet
+        focused_workspace	$bittersweet	$licorice	$aqua
+        active_workspace	$bittersweet	$black		$bittersweet
 
     }
 }
