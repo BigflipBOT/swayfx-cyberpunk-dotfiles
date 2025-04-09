@@ -1,6 +1,18 @@
 # Cyberpunk 2077 themed config for sway(fx)
 This repo contains dotfiles for swayfx window manager. The general theming and color scheme is based on the UI of the Cyberpunk2077. Those are dotfiles that I am currently using, so you can consider this permanent work in progress.
 
+<p align="center">
+	<img src="screenshots/08-04-2025_01:52:07.png"/>
+</p>
+
+<details>
+<summary>More Screenshots</summary>
+<img src="screenshots/08-04-2025_01:49:21.png"/>
+<img src="screenshots/08-04-2025_01:55:35.png"/>
+</details>
+<details>
+
+
 ## Contents
 This repo focuses on visual aspects. In the main scope, there is sway and bar configuration, but there are also some other theming aspects for general apps. **It does not** contain (and will not) any shell configuration files (.bashrc, .zshrc, etc.) because in my opinion they should be tweaked to each users liking.
 
