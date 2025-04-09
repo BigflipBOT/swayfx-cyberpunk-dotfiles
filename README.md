@@ -10,7 +10,6 @@ This repo contains dotfiles for swayfx window manager. The general theming and c
 <img src="screenshots/08-04-2025_01:49:21.png"/>
 <img src="screenshots/08-04-2025_01:55:35.png"/>
 </details>
-<details>
 
 
 ## Contents
