@@ -2,6 +2,14 @@ for_window [app_id="kitty"] {
   blur enable
   opacity 0.9
 }
+for_window [app_id="signal"] {
+  blur enable
+  opacity 0.92
+} 
+for_window [app_id="vesktop"] {
+  blur enable
+  opacity 0.90
+} 
 #for_window [con_mark=".*"]  {
 #  opacity 0.95
 #  blur enable
