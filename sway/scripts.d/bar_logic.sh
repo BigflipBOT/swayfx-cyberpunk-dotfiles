@@ -12,11 +12,12 @@ do
 	time=$(date +'%X')
 	batt=$(cat /sys/class/power_supply/BAT1/capacity)"%"
   conn=$(iwctl station list | head -n +5 | tail -n -1 | awk '{print $2 ": " $3}') # frist station from list
+  sound=$(echo "sound: $(awk -F"[][]" '/Left:/ { print $2 }' <(amixer sget Master))")
 
   separator=$(color " | " "#511E1E")
 
   # insert variables in wanted order into the array
-  modules=("$conn" "$batt" "$date" "$time")
+  modules=("$sound" "$conn" "$batt" "$date" "$time")
 
   # array print
   printval=""
