@@ -58,6 +58,6 @@ If you want to learn more keybinds, visit `sway/config` file.
 ##### swayfx and i3
 This config was prepared for swayfx in mind, however all swayfx exclusive things are located in `sway/config.d/swayfx` so you can delete it to be compatible with regular sway. Also keeping in mind that sway is a drop in replacement for i3, there is a high chance that, with minimal effort it could be made compatbile with i3, however this was not tested.
 ##### background/wallpaper
-There is no background present in this repo. To set it, create `wallpaper` directory, in your .config, paste your image there and modify `sway/config.d/background` accordingly.
+There is no background present in this repo. To set it, create `wallpaper` directory, in your .config, paste your images there. One of them will be randomly chosen at reload.
 ##### discord/vesktop theme
 There is a custom theme for discord application. To use it you have to download **vesktop** custom client and enable it in settings. Also after recent discord UI update, you have to reverse back to old one. At a time of writing this, it is possible by going into Experiments settings in Developers Only section, and setting Desktop Visual Refresh bucket override to 0, 5, or N/E.
