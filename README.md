@@ -18,7 +18,7 @@ This repo focuses on visual aspects. In the main scope, there is sway and bar co
 ## Dependencies to install
 ##### hard dependencies:
 ```
-swayfx polkit swaybg xorg-wayland wofi kitty grim slurp satty wl-clipboard jetbrainsmono-nerd
+swayfx polkit swaybg xorg-wayland wofi kitty grim slurp satty wl-clipboard swaylock-effects jetbrainsmono-nerd
 ```
 ##### soft dependencies:
 ```
@@ -34,7 +34,8 @@ Contents of this repo are meant to be inside your .config dir contetns. All this
 2. Install [stow](https://www.gnu.org/software/stow/)
 3. Create folder inside your .config folder (.sway-dotfiles for example)
 4. Clone this repo inside your new folder
-5. Run command `stow .`
+5. Run command `stow .` inside of your newly created folder
+7. Run `chmod +x ~/.config/sway/scripts.d/*`
 6. After this, reload (or enter) sway and you should be good to go
 
 ## Keybinds
@@ -50,6 +51,7 @@ Mod is a supper key.
 | mod + shift + [0-9]			| move to  workspace [0-9]			|
 | mod + shift + c				| reload sway						|
 | mod + shift + s				| screenshot + screenshot menu      | 
+| mod + shift + x				| lockscreen                        | 
 
 
 If you want to learn more keybinds, visit `sway/config` file.
@@ -61,3 +63,5 @@ This config was prepared for swayfx in mind, however all swayfx exclusive things
 There is no background present in this repo. To set it, create `wallpaper` directory, in your .config, paste your images there. One of them will be randomly chosen at reload.
 ##### discord/vesktop theme
 There is a custom theme for discord application. To use it you have to download **vesktop** custom client and enable it in settings. Also after recent discord UI update, you have to reverse back to old one. At a time of writing this, it is possible by going into Experiments settings in Developers Only section, and setting Desktop Visual Refresh bucket override to 0, 5, or N/E.
+##### executable scripts
+remember to run `chmod +x` on stuff in sway/scripts.d directory or stuff will not work.
