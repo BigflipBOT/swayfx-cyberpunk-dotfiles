@@ -62,6 +62,6 @@ This config was prepared for swayfx in mind, however all swayfx exclusive things
 ##### background/wallpaper
 There is no background present in this repo. To set it, create `wallpaper` directory, in your .config, paste your images there. One of them will be randomly chosen at reload.
 ##### discord/vesktop theme
-There is a custom theme for discord application. To use it you have to download **vesktop** custom client and enable it in settings. Also after recent discord UI update, you have to reverse back to old one. At a time of writing this, it is possible by going into Experiments settings in Developers Only section, and setting Desktop Visual Refresh bucket override to 0, 5, or N/E.
+There is a custom theme for discord application. To use it you have to download **vesktop** custom client and enable it in settings.
 ##### executable scripts
 remember to run `chmod +x` on stuff in sway/scripts.d directory or stuff will not work.
