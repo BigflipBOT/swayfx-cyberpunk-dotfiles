@@ -1,0 +1,7 @@
+width=800
+height=285
+location=center
+hide_search=true
+key_up=k
+key_down=j
+dynamic_lines=true
