@@ -1,6 +1,6 @@
 /**
  * @name Cyberpunk2077 terminal
- * @author Bates 
+ * @author Bates & BigflipBOT
  * @version 3.1.1
  * @website https://B4T3S.github.io/Fallout4TerminalTheme
  * @donate https://www.paypal.com/paypalme/floriancegledi
@@ -45,6 +45,7 @@
 .theme-light {
   --rgb-highlight: 249, 94, 90; /* The main highlight color */
   --rgb-background: 13, 13, 21; /* The main background color */
+  /* --rgb-background: 0, 9, 0; */
   --rgb-text: 40, 255, 255; /* The color (almost) all text should use */
   /*--text: 40, 255, 255;*/
   /*--theme-text-color 40, 255, 255;*/
