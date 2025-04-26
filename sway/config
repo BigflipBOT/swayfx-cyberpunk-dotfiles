@@ -1,6 +1,9 @@
 include ~/.config/sway/config.d/*
 # Read `man 5 sway` for a complete reference.
 
+## Autostart
+exec once mako
+
 ### Variables
 set $mod Mod4
 
@@ -8,6 +11,7 @@ set $left h
 set $down j
 set $up k
 set $right l
+
 # Your preferred terminal emulator
 exec alias ssh='kitten ssh'
 set $term kitty
