@@ -25,7 +25,8 @@ swayfx polkit swaybg xorg-wayland wofi kitty grim slurp satty wl-clipboard swayl
 fastfetch vesktop starship
 ```
 ##### you may consider:
-[firefox theme](https://addons.mozilla.org/en-US/firefox/addon/cyberpunk-2077-ui) (not mine)
+- [firefox theme](https://addons.mozilla.org/en-US/firefox/addon/cyberpunk-2077-ui) (not mine)
+- [grub theme](https://github.com/adnksharp/CyberGRUB-2077) (not mine)
 
 ## Installation
 Contents of this repo are meant to be inside your .config dir contetns. All this is managed by stow (gnu symlink farm manager), so you can use it to install and manage it, or just pick and copy some files you need.
