@@ -17,7 +17,7 @@ format = "[ : $symbol ](fg:#120B10 bg:#F95E5A)"
 vimcmd_symbol = 'Normal'
 vimcmd_visual_symbol = 'Visual'
 success_symbol = 'Insert'
-error_symbol = "[I](fg:#120B10 bg:#fc0228)"
+error_symbol = "[Insert](fg:#fc0228 bg:#F95E5A)"
 
 [directory]
 # style = "fg:#F95E5A"
