@@ -8,7 +8,7 @@ This repo contains dotfiles for swayfx window manager. The general theming and c
 <details>
 <summary>More Screenshots</summary>
 <img src="screenshots/08-04-2025_01:49:21.png"/>
-<img src="screenshots/08-04-2025_01:55:35.png"/>
+<img src="screenshots/25-09-2025_20:32:51.png"/>
 </details>
 
 
@@ -22,7 +22,7 @@ swayfx polkit swaybg wofi kitty grim slurp satty wl-clipboard swaylock-effects m
 ```
 ##### soft dependencies:
 ```
-fastfetch vesktop starship
+fastfetch vesktop starship yazi
 ```
 ##### you may consider:
 - [firefox theme](https://addons.mozilla.org/en-US/firefox/addon/cyberpunk-2077-ui) (not mine)
