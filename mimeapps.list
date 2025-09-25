@@ -1,0 +1,8 @@
+
+[Default Applications]
+x-scheme-handler/discord=vesktop.desktop
+x-scheme-handler/mspa=unofficial-homestuck-collection.desktop
+x-scheme-handler/http=librewolf.desktop
+x-scheme-handler/https=librewolf.desktop
+inode/directory=yazi.desktop
+application/pdf=mupdf.desktop
