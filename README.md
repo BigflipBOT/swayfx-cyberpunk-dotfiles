@@ -22,7 +22,7 @@ swayfx polkit swaybg wofi kitty grim slurp satty wl-clipboard swaylock-effects m
 ```
 ##### soft dependencies:
 ```
-fastfetch vesktop starship yazi
+fastfetch vesktop starship yazi bat
 ```
 ##### you may consider:
 - [firefox theme](https://addons.mozilla.org/en-US/firefox/addon/cyberpunk-2077-ui) (not mine)
