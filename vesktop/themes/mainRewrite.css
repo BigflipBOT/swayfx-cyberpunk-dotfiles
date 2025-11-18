@@ -246,10 +246,10 @@
 .theme-dark .appMount__51fd7,
 .theme-dark .app__160d8,
 .theme-dark .bg__960e4,
-.theme-dark .guilds_c48ade,
+.theme-dark .guilds__5e434,
 .theme-dark .scroller_ef3116,
-.theme-dark .sidebar_c48ade,
-.theme-dark .sidebar_c48ade::after,
+.theme-dark .sidebar__5e434,
+.theme-dark .sidebar__5e434::after,
 .theme-dark .container__2637a,
 .theme-dark .chat_f75fb0,
 .theme-dark .chatContent_f75fb0,
@@ -268,7 +268,7 @@
 .theme-dark .section__00943,
 .theme-dark .inset_bf1984,
 .theme-dark .container__9293f,
-.theme-dark .privateChannels__35e86,
+.theme-dark .privateChannels_e6b769,
 .theme-dark .scroller__99e7c,
 .theme-dark .layer__960e4,
 .theme-dark .standardSidebarView__23e6b,
@@ -371,7 +371,7 @@
 .theme-dark .arrow_d64d50 {
   display: none;
 }
-.theme-dark .container-q97qHp .overflow__82b15 {
+.theme-dark .container-q97qHp .overflow_b0dfc2 {
   max-width: 8vw;
 }
 .theme-dark .containerDefault__29444::before {
@@ -398,7 +398,7 @@
     rgba(var(--rgb-highlight), 0) 100%
   );
 }
-.theme-dark .panels_c48ade {
+.theme-dark .panels__5e434 {
   background-color: var(--background);
 }
 .theme-dark .outer_c0bea0:not(.custom-user-profile) {
@@ -406,10 +406,10 @@
 }
 .theme-dark
   .outer_c0bea0:not(.custom-user-profile)
-  .inner_c0bea0.fullSize_c0bea0,
+  .inner_c0bea0.user-profile-modal,
 .theme-dark
   .outer_c0bea0:not(.custom-user-profile)
-  .inner_c0bea0.biteSize_c0bea0 {
+  .inner_c0bea0.user-profile-popout {
   background: inherit;
 }
 .theme-dark .reactionMe__23977 {
@@ -543,7 +543,7 @@ img[src*="users/137259132305539072"] + .header_c19a55:hover::after {
   display: block;
 }
 .info__2debe:last-child::after {
-  content: "Fallout 4 Terminal 4.0.1";
+  content: "Fallout 4 Terminal 4.0.2";
   font-size: 12px;
   line-height: 16px;
   color: rgb(var(--rgb-highlight));
