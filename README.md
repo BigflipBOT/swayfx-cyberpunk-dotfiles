@@ -18,7 +18,7 @@ This repo focuses on visual aspects. In the main scope, there is sway and bar co
 ## Dependencies to install
 ##### hard dependencies:
 ```
-swayfx polkit swaybg wofi kitty grim slurp satty wl-clipboard swaylock-effects mako jetbrainsmono-nerd
+swayfx polkit swaybg wofi kitty grim slurp satty wl-clipboard swaylock-effects mako playerctl jetbrainsmono-nerd
 ```
 ##### soft dependencies:
 ```
