@@ -8,6 +8,7 @@ color(){
 while true
 do
   	# set values of custom variables
+    vpn="vpn: "$(if [[ $(wg 2>&1 >/dev/null) ]]; then wg 2>&1 >/dev/null | cut -d ' ' -f 5 | cut -c -13; else echo "n/c"; fi)
 	date=$(date +'%d/%m/%Y')
 	time=$(date +'%X')
 	batt=$(cat /sys/class/power_supply/BAT1/capacity)"%"
@@ -17,7 +18,7 @@ do
 	separator=$(color " | " "#511E1E")
 
 	# insert variables in wanted order into the array
-	modules=("$sound" "$conn" "$batt" "$date" "$time")
+	modules=("$sound" "$vpn" "$conn" "$batt" "$date" "$time")
 
 	# array print
 	printval=""
